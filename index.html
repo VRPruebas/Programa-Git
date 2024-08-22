@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login HelpDesk</title>
+    <link rel="stylesheet" href="public/css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>HelpDesk</h1>
+            <p>Reporte de incidencias para colaboradores</p>
+            <img src="public/img/laptop.png" alt="Icono de ordenador">
+        </div>
+        <form action="procesar_login.php" method="post">
+            <label for="numero_identificacion">Número de identificación:</label>
+            <input type="text" id="numero_identificacion" name="numero_identificacion" required>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+            <a href="#">Olvidé mi contraseña</a>
+            <a href="#">Cambiar contraseña</a>
+            <button type="submit">Ingresar</button>
+        </form>
+    </div>
+</body>
+</html>

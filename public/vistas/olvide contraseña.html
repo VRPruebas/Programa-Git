@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recuperación de Contraseña</title>
+    <link rel="stylesheet" href="../css/olvido contraseña.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HelpDesk</h1>
+        <button class="forgot-password">Olvidé mi contraseña</button>
+        <form>
+            <label for="id">Número de identificación:</label>
+            <input type="text" id="id" name="id">
+            <label for="phone">Número de celular:</label>
+            <input type="tel" id="phone" name="phone">
+            <label for="birthdate">Fecha de nacimiento:</label>
+            <input type="date" id="birthdate" name="birthdate">
+            <label for="new_password">Nueva contraseña:</label>
+            <input type="password" id="new_password" name="new_password">
+            <div class="password-requirements">
+                <ul>
+                    <li>8 caracteres o más</li>
+                    <li>Al menos una letra mayúscula</li>
+                    <li>Al menos una letra minúscula</li>
+                    <li>Al menos un número</li>
+                </ul>
+            </div>
+            <button type="submit">Aceptar</button>
+            <button type="button">Cancelar</button>
+            <p class="status">Obteniendo sus datos...</p>
+        </form>
+    </div>
+</body>
+</html>

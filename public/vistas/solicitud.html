@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HelpDesk</title>
+    <link rel="stylesheet" href="../css/solicitud.css">
+    <title>Solicitud</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo HelpDesk">
+        <h1>HelpDesk</h1>
+        <div class="user-info">
+            <p>Yeison Vasquez Mahecha</p>
+            <p>Asistente de sistemas</p>
+            <button>Cerrar sesión</button>
+        </div>
+        <nav>
+            <button class="nav-button active">Personal</button>
+            <button class="nav-button">Administrador</button>
+        </nav>
+    </header>
+    <main>
+        <h2>Nueva Solicitud</h2>
+        <form>
+            <label for="tipo">Tipo de solicitud:</label>
+            <div>
+                <input type="radio" id="hardware" name="tipo" value="hardware">
+                <label for="hardware">Hardware</label>
+                <input type="radio" id="software" name="tipo" value="software">
+                <label for="software">Software</label>
+                <input type="radio" id="redes" name="tipo" value="redes">
+                <label for="redes">Redes</label>
+                <input type="radio" id="otro" name="tipo" value="otro">
+                <label for="otro">Otro</label>
+            </div>
+            <label for="descripcion">Descripción del problema:</label>
+            <textarea id="descripcion" name="descripcion"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>

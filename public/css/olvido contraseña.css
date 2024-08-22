@@ -1,0 +1,46 @@
+.container {
+    /* Estilos generales para el contenedor */
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.forgot-password {
+    /* Estilos para el botón "Olvidé mi contraseña" */
+    float: right;
+    /* Otros estilos según la posición deseada */
+}
+
+form {
+    /* Estilos para el formulario */
+    /* ... */
+}
+
+/* Estilos para etiquetas, inputs, botones, etc. */
+label {
+    /* ... */
+}
+
+input {
+    /* ... */
+}
+
+button {
+    /* ... */
+}
+
+.password-requirements {
+    /* Estilos para la lista de requisitos de contraseña */
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.status {
+    /* Estilos para el mensaje de estado */
+    text-align: center;
+    margin-top: 10px;
+    color: #888;
+}
